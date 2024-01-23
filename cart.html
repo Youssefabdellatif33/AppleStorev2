@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styel.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="main.html">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        
+        
+        
+      </div>
+    <h1>Shopping Cart</h1>
+    <div id="cartContent">
+        <p id="shcart"></p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script >
+        var test=localStorage.getItem("items")
+        console.log("arr",typeof test);
+    </script>
+
+</body>
+</html>

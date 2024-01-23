@@ -1,0 +1,267 @@
+body {
+    background-color: #F5F5F7;
+    
+  }
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: arial;
+
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .card1 {
+    transition: transform .2s;
+
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 278px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card1 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card1 button:hover {
+    opacity: 0.7;
+  }
+  .card2 {
+    transition: transform .2s;
+
+    float:right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 275px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card2 button {
+    float:none;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card2 button:hover {
+    opacity: 0.7;
+  }
+  .card3 {
+    transition: transform .2s;
+
+    float:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 275px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card3 button {
+    
+    float:none;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card3 button:hover {
+    opacity: 0.7;
+  }
+  .allcards{
+    margin: 2em;
+  }
+  
+  .card4 {
+    transition: transform .2s;
+
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 275px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card4 button {
+    float: none;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card4 button:hover {
+    opacity: 0.7;
+  }
+  .card5 {
+    transition: transform .2s;
+
+    float:right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 275px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card5 button {
+    float: none;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card5 button:hover {
+    opacity: 0.7;
+  }
+  .card6 {
+
+    float: none;
+    transition: transform .2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 275px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card6 button {
+    float: none;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card6 button:hover {
+    opacity: 0.7;
+  }
+  .card6:hover {
+    transform: scale(1.2);
+  }
+  .card5:hover {
+    transform: scale(1.2);
+  }
+  .card4:hover {
+    transform: scale(1.2);
+  }
+  .card3:hover {
+    transform: scale(1.2);
+  }
+  .card2:hover {
+    transform: scale(1.2);
+  }
+  .card1:hover {
+    transform: scale(1.2);
+  }
+
+  .badge:after{
+    content:attr(value);
+    font-size:15px;
+    color: #fff;
+    background: red;
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:0.9;
+}
+#cartBadge{
+    padding: 2em;
+}
+
+#macbook{
+    width: 653px;
+  height:  360px ;
+}
+
+#cart1{
+    float: left;
+}
+#ipadPro{
+
+}
+#applewatch{
+    height: 800;
+
+}

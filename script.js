@@ -35,7 +35,7 @@ function add (){
          addPrice(999)
          console.log("items",items)
         
-        localStorage.setItem("items",{})
+        localStorage.setItem("items",{items})
        } );
        
 
